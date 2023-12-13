@@ -1,0 +1,178 @@
+#banner{
+    background-image: url(../imgs/lol.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 90px;
+    margin: 5px 0px 0px 0px;
+    
+}
+#pageTitle{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px black;
+    font-size: 3em;
+    text-align: center;
+}
+body{
+    background-color: rgb(34, 33, 33);
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+h2{
+    padding: 10px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 1.7em;
+}
+p{
+    font-size: 15px;
+}
+
+#mainBody { 
+    width: 710px;
+    margin: auto;
+    padding: 10px ;
+    background-color: rgb(51, 51, 70);
+    font-size: 20px;
+
+}
+
+
+
+
+.VertMenu{
+    text-align: center;
+    margin-top: 0px;
+    background-color: #13151b;
+}
+
+.VertMenu li {
+    display: inline-block;
+}
+
+.VertMenu ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+.VertMenu a {
+    color: white;
+    display: block;
+    padding: 20px 10px;
+    text-decoration: none; 
+    transition: 0.3s;
+  }
+
+  .VertMenu a:hover {
+    background-color: rgb(51, 51, 70);
+  }
+
+a{
+    color: white;
+    text-decoration:none;
+    display: block;
+}
+
+footer{
+    background-color: #13151b;
+    margin-top: 15px;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+footer ul li a {
+    margin: 5px;
+    color:  white;
+    text-decoration: none;
+}
+
+footer h3{
+    margin: 4px 0px 0px 25px;
+}
+footer div{
+    width:33%;
+    display: inline-block;
+}
+
+footer p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#form-container {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(51, 51, 70);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input.invalid, select.invalid {
+    border: 1px solid red;
+}
+
+.error-message {
+    color: red;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+}
+
+@media screen and (max-width: 700px) {
+    #form-container {
+        width: 90%;
+    }
+    .VertMenu li {
+        display: block;
+        font-size: 20px;
+    }
+    footer div{
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    
+}
+
